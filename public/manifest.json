@@ -12,5 +12,14 @@
     "48": "logo-small.png",
     "128": "logo-small.png"
   },
-  "permissions": ["tabs", "storage", "scripting"]
+  "content_scripts": [
+    {
+      "matches": [
+        "http://msgboard.radiohead.com/*",
+        "https://msgboard.radiohead.com/*"
+      ],
+      "js": ["block-list.js"]
+    }
+  ],
+  "permissions": ["tabs", "storage", "scripting", "activeTab"]
 }
