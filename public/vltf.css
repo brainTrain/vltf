@@ -1,0 +1,23 @@
+.empty-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* utility calsses */
+.hide {
+  display: none;
+}
+
+/*
+.threads.highlight-visited a:visited {
+  color: rgb(34 29 29 / 50%);
+  outline: none !important;
+}
+
+.threads.highlight-not-visited a:not(:visited) {
+  outline: 1px dashed red;
+}
+*/

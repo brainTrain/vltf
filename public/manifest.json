@@ -18,7 +18,8 @@
         "http://msgboard.radiohead.com/*",
         "https://msgboard.radiohead.com/*"
       ],
-      "js": ["block-list.js"]
+      "js": ["block-list.js"],
+      "css": ["vltf.css"]
     }
   ],
   "permissions": ["tabs", "storage", "scripting", "activeTab"]
